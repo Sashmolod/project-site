@@ -2,7 +2,7 @@
   "name": "test-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Sashmolod.github.io/test-project",
+  "homepage": "https://Sashmolod.github.io/project-site",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /test-project/"
@@ -15,7 +15,7 @@
   "author": "Alexander <tumba.red.sash@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sashmolod/test-project/issues"
+    "url": "https://github.com/Sashmolod/project-site/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
