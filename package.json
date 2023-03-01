@@ -2,10 +2,10 @@
   "name": "test-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Sashmolod.github.io/project-site",
+  "homepage": "https://Sashmolod.github.io/project-site/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test-project/"
+    "build": "parcel build src/*.html --public-url /project-site/"
   },
   "repository": {
     "type": "git",
