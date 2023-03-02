@@ -1,2 +1,2 @@
-import './js/modal';
 import "./sass/styles.scss";
+import "./images/sprite.svg";

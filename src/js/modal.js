@@ -20,3 +20,4 @@ openModalBtnRef.addEventListener("click", instance.show);
 function getCloseModalBtnRef(parent) {
   return parent.element().querySelector("button[data-close-modal]");
 }
+
