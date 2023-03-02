@@ -8,8 +8,12 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <h1>Hello World!!!</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <button type="button" data-open-modal>0трыть модалку</button>
+    <template id="modal">
+      <div class="modal">
+          <p>I'm a modal created from a DOM element/node.</p>
+          <button type="button" data-close-modal>Закрыть модалку</button>
+      </div>
+  </template>
   </body>
 </html>
