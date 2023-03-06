@@ -1,3 +1,40 @@
+// const checkbox = document.querySelector('input[type="checkbox"]');
+// const element = document.querySelector("body");
+
+
+// //const savedMessage = localStorage.getItem("theme");
+
+// // if (savedMessage) {
+// //   element.classList = savedMessage;
+// // }
+
+// populateMessage();
+
+// checkbox.addEventListener("change", handleTheme);
+
+// function handleTheme(event) {
+//   event.preventDefault();
+//   if (this.checked === true) {
+//     element.classList.remove("light-theme"); //Тётная тема
+//     element.classList.add("dark-theme");
+//     const message = element.classList;
+//     localStorage.setItem("theme", message);
+//   } else {
+//     element.classList.remove("dark-theme"); //Светлая тема
+//     element.classList.add("light-theme");
+//     const message = element.classList;
+//     localStorage.setItem("theme", message);
+//   }
+// }
+
+// function populateMessage() {
+//   const savedMessage = localStorage.getItem("theme");
+//   if (savedMessage) {
+//     element.classList = savedMessage;
+//   }
+// }
+
+
 const Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme',
