@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://Sashmolod.github.io/project-site/",
   "scripts": {
-    "start": "parcel src/*.js",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /project-site/"
   },
   "repository": {
@@ -19,11 +19,13 @@
   },
   "dependencies": {
     "basiclightbox": "^5.0.4",
+    "handlebars": "^4.7.7",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.6.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
