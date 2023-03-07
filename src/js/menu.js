@@ -1,15 +1,17 @@
 
-// import templateFunction from './templates/template.hbs';
-// document.body.innerHTML = templateFunction();
+//import menuItemTemplate from 'handlebars';
+//import menuItemTemplate from '../view/template.hbs';
+// import menu555 from '../menu.json';
+// console.log(menu555);
+// const menu = document.querySelector('.js-menu');
+// console.log(menu);
+// //const menuItemTemplate = document.querySelector('#menu-item-template').innerHTML.trim();
+//  console.log(menuItemTemplate);
+// const renderMenuItem = Handlebars.compile(menuItemTemplate);
 
-const menuList = document.querySelector('.js-menu');
-const menuTemplate = document.querySelector('#menu-template').innerHTML;
-const compiledTemplate = Handlebars.compile(menuTemplate);
-
-fetch('./src/menu.json')
-  .then(response => response.json())
-  .then(menu => {
-    const markup = menu.map(item => compiledTemplate(item)).join('');
-    menuList.insertAdjacentHTML('beforeend', markup);
-  })
-  .catch(error => console.log(error));
+// fetch('../menu.json')
+//   .then(response => response.json())
+//   .then(data => {
+//     const menuItems = data.map(item => renderMenuItem(item)).join('');
+//     menu.insertAdjacentHTML('beforeend', menuItems);
+//   });
