@@ -1,7 +1,7 @@
-<script id="menu-item-template" type="text/x-handlebars-template">
+{{#each this}}
   <li class="menu__item">
     <article class="card">
-      <img src="{{imgSrc}}" alt="{{name}}" class="card__image" />
+      <img src="{{image}}" alt="{{name}}" class="card__image" />
       <div class="card__content">
         <h2 class="card__name">{{name}}</h2>
         <p class="card__price">
@@ -9,7 +9,7 @@
         </p>
         <p class="card__descr">{{description}}</p>
         <ul class="tag-list">
-          {{#each tags}}
+          {{#each ingredients}}
           <li class="tag-list__item">{{this}}</li>
           {{/each}}
         </ul>
@@ -19,4 +19,4 @@
       </button>
     </article>
   </li>
-</script>
+  {{/each}}
